@@ -5,19 +5,19 @@ import country from '../assets/images/country.jpg'
 import heavymetal from '../assets/images/heavymetal.jpg'
 import hiphop from '../assets/images/hiphop.jpg'
 import rnb from '../assets/images/rnb.jpg'
-import Button from '../components/Button'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 
 
 function Genres() {
-
-    const[isVisible, setIsVisible] = useState (false)
+ 
+    // const[setIsVisible] = useState (false)
 
     const clicked = () => {
-        setIsVisible (false)
-    }  
+        setIsVisible: Boolean
+    } 
+     
   return (
     <div style={{backgroundImage: `url(${Background})`}}
               className='flex flex-row justify-center mx-auto bg-cover bg-fixed'>

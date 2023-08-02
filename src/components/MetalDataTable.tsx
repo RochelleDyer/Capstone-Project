@@ -57,7 +57,7 @@ function MetalDataTable() {
           <Button onClick={deleteData} className='p-3 m-3 bg-purple-400 text-white rounded hover:text-black'>Delete Heavy Metal Song</Button>           
           
           <div>            
-            <a href = "https://capstone-project-backend-gb8m.onrender.com/genres">
+            <a href = "http://localhost:5173/#/genres">
               <button className="p-3 m-3 bg-purple-400 text-white rounded hover:text-black">
                 Other Genres
               </button>

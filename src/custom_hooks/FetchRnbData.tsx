@@ -5,17 +5,18 @@ import { rnbserver_calls } from '../api/server'
 export const useGetData = () => {
     const [ rnbsongData, setData ] = useState<[]>([])
 
-    async function handleDataFetch(){
+    async function handleRnbDataFetch(){
         const result = await rnbserver_calls.get();
         setData(result)
     }
 
     useEffect( () => {
-        handleDataFetch();
+        handleRnbDataFetch();
     }, [])
 
-    return { rnbsongData, getData: handleDataFetch}
+    return { rnbsongData, getData: handleRnbDataFetch}
 
 }
+
 
 

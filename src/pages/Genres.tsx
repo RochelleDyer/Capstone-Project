@@ -24,8 +24,8 @@ function Genres() {
         <div className='flex place-items-center h-screen'></div> 
  
     <div className="container">
-        <div className="gallery">
-            <table className = 'table mt-2 '>
+        <div className="gallery ml-40">
+            <table className = 'mt-2'>
                 <tbody>
                     <tr>
                         <td className='p-5'>                      
@@ -40,14 +40,7 @@ function Genres() {
                             <Link to='/CountryDashboard' onClick = {clicked} className='flex place-tiems-center mt-4 lg:inline-block lg:mt-0
                             text-black hover:text-white mr-4'><img src= {country} alt="Country"></img> </Link>
                         </td>
-                        <td>
-                        <Button className='p-3 m-5 bg-blue-500 justify-center border rounded border-black'>
-                        <div>
-                            <Link to='/' onClick = {clicked} className='flex place-tiems-center mt-4 justify-center lg:inline-block lg:mt-0
-                            text-black hover:text-white mr-4'>Add a New Genre</Link>
-                        </div>
-                        </Button>
-                        </td>
+                        
                     </tr>
                     <tr>
                         <td className="p-5">

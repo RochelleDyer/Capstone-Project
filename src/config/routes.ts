@@ -8,7 +8,6 @@ import CountryDashboard from '../pages/CountryDashboard';
 import HiphopDashboard from '../pages/HiphopDashboard';
 import MetalDashboard from '../pages/MetalDashboard';
 import RnbDashboard from '../pages/RnbDashboard';
-import Profile from '../pages/Profile';
 import SignUp from '../pages/SignUp';
 import Spotify from '../pages/Spotify';
 
@@ -113,14 +112,6 @@ const routes: RouteType[] = [
         protected: true
         
     },
-
-    {
-        path: "/profile",
-        component: Profile,
-        name: "Profile",
-        protected: true
-      
-  },
  
   ];
 

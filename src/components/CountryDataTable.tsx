@@ -47,22 +47,29 @@ function CountryDataTable() {
     {/* Buttons section for controlling CRUD*/}
     <div className="flex flex-row">
         <div>
-            <button className="p-3 m-3 bg-black rounded text-white hover:text-blue-500" 
+            <button className="p-3 m-3 bg-orange-500 rounded text-white hover:text-black" 
             onClick = {() => handleOpen ()}>
                 Create New Country Song
             </button>
           </div> 
             
-          <Button onClick= {handleOpen} className='p-3 m-3 bg-black text-white rounded hover:text-blue-500'>Update Country Song</Button>
-          <Button onClick={deleteData} className='p-3 m-3 bg-black text-white rounded hover:text-blue-500'>Delete Country Song</Button>           
-        
+          <Button onClick= {handleOpen} className='p-3 m-3 bg-orange-500 text-white rounded hover:text-black'>Update Country Song</Button>
+          <Button onClick={deleteData} className='p-3 m-3 bg-orange-500 text-white rounded hover:text-black'>Delete Country Song</Button>           
+          
+          <div>            
+            <a href = "http://localhost:5173/#/genres">
+              <button className="p-3 m-3 bg-orange-500 text-white rounded hover:text-black">
+                Other Genres
+              </button>
+            </a>            
+          </div> 
     </div>
 
     {/*DataTable Section */}
 
     <div className= { open ? "hidden" : 'container x-10 my-5 flex flex-col'}
             style = {{ height: 400, width: '100%'}}>
-                <h2 className='p-3 mx-3 bg-black text-white my-2 rounded'>My Country Songs</h2>
+                <h2 className='p-3 mx-3 bg-orange-500 text-white my-2 rounded'>My Country Songs</h2>
                 <DataGrid rows={countrysongData} columns= {columns} rowsPerPageOptions={[5]}
                 checkboxSelection={true} 
                 onSelectionModelChange= { (item:any) => {

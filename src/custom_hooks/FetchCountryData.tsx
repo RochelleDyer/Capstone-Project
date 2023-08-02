@@ -5,17 +5,18 @@ import { countryserver_calls } from '../api/server'
 export const useGetData = () => {
     const [ countrysongData, setData ] = useState<[]>([])
 
-    async function handleDataFetch(){
+    async function handleCountryDataFetch(){
         const result = await countryserver_calls.get();
         setData(result)
     }
 
     useEffect( () => {
-        handleDataFetch();
+        handleCountryDataFetch();
     }, [])
 
-    return { countrysongData, getData: handleDataFetch}
+    return { countrysongData, getData: handleCountryDataFetch }
 
 }
+
 
 

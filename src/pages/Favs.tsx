@@ -29,54 +29,75 @@ function Favs() {
             <table className = 'table mt-2 '>
               <tbody>
                 <tr>
-                    <td className='p-5'>                      
-                        <img src = { Breezy } alt="Breezy"></img> 
+                    <td className='p-5'>
+                        <a href = 'https://www.youtube.com/watch?v=KPmRRaTPZLs' target='_blank'>                     
+                        <img src = { Breezy }  alt="Breezy"></img>
+                        </a> 
                         <p className='text-center text-xl'>Breezy</p>
                     </td>
 
-                    <td className='p-5'>                      
+                    <td className='p-5'>
+                        <a href = 'https://www.youtube.com/watch?v=yzcXoZ2Xu_A' target='_blank'>                    
                         <img src= {DamnYourEyes} alt="DamnYourEyes"></img>
+                        </a>
                         <p className='text-center text-xl'>Damn Your Eyes</p>
                     </td>
 
-                    <td className='p-5'>                      
+                    <td className='p-5'>
+                        <a href = 'https://www.youtube.com/watch?v=r2j-djuqUeY' target='_blank'>                   
                         <img src= {NoneofYourBusiness} alt="NoneofYourBusiness"></img>
+                        </a>  
                         <p className='text-center text-xl'>None of Your Business</p>
                     </td>
 
-                    <td className='p-5'>                      
+                    <td className='p-5'> 
+                        <a href = 'https://www.youtube.com/watch?v=qCaparx0f3c' target='_blank'>                    
                         <img src= {NumbLittleBug} alt="NumbLittleBug"></img>
+                        </a>
                         <p className='text-center text-xl'>Numb Little Bug</p>
                     </td>
-                    <td className='p-5'>                      
+
+                    <td className='p-5'>
+                        <a href = 'https://www.youtube.com/watch?v=4Jy_Z7a8S_o' target = '_blank'>                      
                         <img src= {Sabotage} alt="Sabotage"></img>
+                        </a>
                         <p className='text-center text-xl'>Sabotage</p>
                     </td>                
                   </tr>
 
                 <tr>
-                    <td className='p-5'>                      
+                    <td className='p-5'>
+                        <a href ='https://www.youtube.com/watch?v=97AToHDppes' target = '_blank'>                     
                         <img src= {Wifey} alt="Wifey"></img>
+                        </a>
                         <p className='text-center text-xl'>Wifey</p>
                     </td>
 
-                    <td className='p-5'>                      
+                    <td className='p-5'>
+                        <a href = 'https://www.youtube.com/watch?v=QxTgr11ncJo' target = '_blank'>                     
                         <img src= {AllNight} alt="AllNight"></img>
+                        </a> 
                         <p className='text-center text-xl'>All Night</p>
                     </td>
 
-                    <td className='p-5'>                      
+                    <td className='p-5'>
+                        <a href = 'https://www.youtube.com/watch?v=5LvHjxBYTEo' target = '_blank'>                    
                         <img src= {redesign} alt="redesign"></img>
+                        </a>
                         <p className='text-center text-xl'>redesign</p>
                     </td>
 
-                    <td className='p-5'>                      
+                    <td className='p-5'>
+                        <a href = 'https://www.youtube.com/watch?v=JsOVJ1PAC6s' target = '_blank'>                     
                         <img src= {AboutDamnTime} alt="AboutDamnTime"></img>
+                        </a> 
                         <p className='text-center text-xl'>About Damn Time</p>
                     </td>
 
-                    <td className='p-5'>                      
+                    <td className='p-5'>
+                        <a href = 'https://www.youtube.com/watch?v=ogkyyPbun_U' target = '_blank'>                    
                         <img src= {TooClose} alt="TooClose"></img>
+                        </a>
                         <p className='text-center text-xl'>Too Close</p>
                     </td>
                 </tr>

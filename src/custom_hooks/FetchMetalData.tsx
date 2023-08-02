@@ -5,17 +5,18 @@ import { metalserver_calls } from '../api/server'
 export const useGetData = () => {
     const [ metalsongData, setData ] = useState<[]>([])
 
-    async function handleDataFetch(){
+    async function handleMetalDataFetch(){
         const result = await metalserver_calls.get();
         setData(result)
     }
 
     useEffect( () => {
-        handleDataFetch();
+        handleMetalDataFetch();
     }, [])
 
-    return { metalsongData, getData: handleDataFetch}
+    return { metalsongData, getData: handleMetalDataFetch}
 
 }
+
 
 

@@ -5,17 +5,18 @@ import { hiphopserver_calls } from '../api/server'
 export const useGetData = () => {
     const [ hiphopsongData, setData ] = useState<[]>([])
 
-    async function handleDataFetch(){
+    async function handleHiphopDataFetch(){
         const result = await hiphopserver_calls.get();
         setData(result)
     }
 
     useEffect( () => {
-        handleDataFetch();
+        handleHiphopDataFetch();
     }, [])
 
-    return { hiphopsongData, getData: handleDataFetch}
+    return { hiphopsongData, getData: handleHiphopDataFetch}
 
 }
+
 
 

@@ -50,14 +50,7 @@ function Navbar() {
                             text-black hover:text-white mr-4'>Home</Link>
                         </div>                   
                     </Button>
-
-                    <Button className='p-3 m-3 bg-blue-500 justify-center border rounded border-black'>
-                        <div>
-                            <Link to='/profile' onClick = {clicked} className='flex place-tiems-center mt-4 lg:inline-block lg:mt-0
-                            text-black hover:text-white mr-4'>Profile</Link>
-                        </div>
-                    </Button>
-                  
+                                   
                     <Button className='p-3 m-3 bg-blue-500 justify-center border rounded border-black'>
                         <div>
                             <Link to='/genres' onClick = {clicked} className='flex place-tiems-center mt-4 lg:inline-block lg:mt-0
@@ -88,7 +81,7 @@ function Navbar() {
 
                     <Button className='p-3 m-3 bg-blue-500 justify-center border rounded border-black'> 
                         <div> 
-                            <Link to='/signup' onClick = {clicked} className='flex place-tiems-center mt-4 lg:inline-block lg:mt-0
+                            <Link to='https://capstone-project-backend-gb8m.onrender.com/signup' onClick = {clicked} className='flex place-tiems-center mt-4 lg:inline-block lg:mt-0
                             text-black hover:text-white mr-4'>
                                 Sign Up
                             </Link>

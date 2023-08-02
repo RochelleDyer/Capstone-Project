@@ -5,12 +5,12 @@ function Contact() {
     <div style={{backgroundImage: `url(${Background})`}}
               className='flex flex-row justify-center mx-auto bg-cover bg-fixed'>
         <div className='flex place-items-center h-screen p-5' ></div> 
-          <div className='mr-auto p-10'>
+          <div className='mr-60 p-10'>
             <table>
             <ul>            
                 <li><h3 className='p-5 text-white text-3xl'><u>Contact Us on:</u> </h3></li> 
                 
-                <li><i className="fa-brands fa-facebook text-lg text-white">  Facebook </i></li>             
+                <li><i className="fa-brands fa-facebook text-lg text-white">   Facebook </i></li>             
                 <br></br>                       
                 <li><i className="fa-brands fa-twitter text-lg text-white"> Twitter </i></li>                  
                 <br></br>          

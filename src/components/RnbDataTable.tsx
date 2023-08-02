@@ -47,22 +47,29 @@ function RnbDataTable() {
     {/* Buttons section for controlling CRUD*/}
     <div className="flex flex-row">
         <div>
-            <button className="p-3 m-3 bg-black text-white rounded hover:text-blue-500" 
+            <button className="p-3 m-3 bg-green-700 text-white rounded hover:text-black" 
             onClick = {() => handleOpen ()}>
                 Create New R&B Song
             </button>
           </div> 
             
-          <Button onClick= {handleOpen} className='p-3 m-3 bg-black text-white rounded hover:text-blue-500'>Update R&B Song</Button>
-          <Button onClick={deleteData} className='p-3 m-3 bg-black text-white rounded hover:text-blue-500'>Delete R&B Song</Button>           
-        
+          <Button onClick= {handleOpen} className='p-3 m-3 bg-green-700 text-white rounded hover:text-black'>Update R&B Song</Button>
+          <Button onClick={deleteData} className='p-3 m-3 bg-green-700 text-white rounded hover:text-black'>Delete R&B Song</Button> 
+                    
+          <div>            
+              <a href = "http://localhost:5173/#/genres">
+                <button className="p-3 m-3 bg-green-700 text-white rounded hover:text-black">
+                  Other Genres
+                </button>
+              </a>             
+          </div> 
     </div>
 
     {/*DataTable Section */}
 
     <div className= { open ? "hidden" : 'container x-10 my-5 flex flex-col'}
             style = {{ height: 400, width: '100%'}}>
-                <h2 className='p-3 mx-3 bg-black text-white rounded'>My R&B Songs</h2>
+                <h2 className='p-3 mx-3 bg-green-700 text-white rounded'>My R&B Songs</h2>
                 <DataGrid rows={rnbsongData} columns= {columns} rowsPerPageOptions={[5]}
                 checkboxSelection={true} 
                 onSelectionModelChange= { (item:any) => {

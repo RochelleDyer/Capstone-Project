@@ -1,7 +1,7 @@
 import Button from './Button'
 import BluModal from './BluModal'
 import { useState } from 'react';
-import {bluserver_calls } from '../api/server';
+import { bluserver_calls } from '../api/server';
 import {DataGrid, GridColDef} from '@mui/x-data-grid';
 import { useGetData } from '../custom_hooks/FetchBluData';
 
@@ -27,10 +27,10 @@ function BluDataTable() {
   }
 
   const deleteData = () => {
-   bluserver_calls.delete (selectionModel[0]);
+    bluserver_calls.delete (selectionModel[0]);
     getData ();
     console.log (`Selection model: ${selectionModel}`)
-    setTimeout ( () => { window.location.reload () }, 1000)
+    setTimeout ( () => { window.location.reload () }, 500)
   }
 
   
@@ -47,22 +47,29 @@ function BluDataTable() {
     {/* Buttons section for controlling CRUD*/}
     <div className="flex flex-row">
         <div>
-            <button className="p-3 m-3 bg-black rounded text-white hover:text-blue-500" 
+            <button className="p-3 m-3 bg-blue-400 rounded text-white hover:text-black" 
             onClick = {() => handleOpen ()}>
                 Create New Blues Song
             </button>
           </div> 
             
-          <Button onClick= {handleOpen} className='p-3 m-3 bg-black text-white rounded hover:text-blue-500'>Update Blues Song</Button>
-          <Button onClick={deleteData} className='p-3 m-3 bg-black text-white rounded hover:text-blue-500'>Delete Blues Song</Button>           
+          <Button onClick= {handleOpen} className='p-3 m-3 bg-blue-400 text-white rounded hover:text-black'>Update Blues Song</Button>
+          <Button onClick={deleteData} className='p-3 m-3 bg-blue-400 text-white rounded hover:text-black'>Delete Blues Song</Button>           
         
+          <div>            
+            <a href = "http://localhost:5173/#/genres">
+              <button className="p-3 m-3 bg-blue-400 text-white rounded hover:text-black">
+                Other Genres
+              </button>
+            </a>            
+          </div> 
     </div>
 
     {/*DataTable Section */}
 
     <div className= { open ? "hidden" : 'container x-10 my-5 flex flex-col'}
             style = {{ height: 400, width: '100%'}}>
-                <h2 className='p-3 mx-3 bg-black text-white my-2 rounded'>Mybluernative Songs</h2>
+                <h2 className='p-3 mx-3 bg-blue-400 text-white my-2 rounded'>My Blues Songs</h2>
                 <DataGrid rows={blusongData} columns= {columns} rowsPerPageOptions={[5]}
                 checkboxSelection={true} 
                 onSelectionModelChange= { (item:any) => {

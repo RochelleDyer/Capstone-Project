@@ -5,16 +5,16 @@ import { altserver_calls } from '../api/server'
 export const useGetData = () => {
     const [ altsongData, setData ] = useState<[]>([])
 
-    async function handleDataFetch(){
+    async function handleAltDataFetch(){
         const result = await altserver_calls.get();
         setData(result)
     }
 
     useEffect( () => {
-        handleDataFetch();
+        handleAltDataFetch();
     }, [])
 
-    return { altsongData, getData: handleDataFetch}
+    return { altsongData, getData: handleAltDataFetch }
 
 }
 

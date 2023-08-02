@@ -57,7 +57,7 @@ function AltDataTable() {
           <Button onClick={deleteData} className='p-3 m-3 bg-black text-white rounded hover:text-blue-500'>Delete Alternative Song</Button>           
         
           <div>            
-            <a href = "http://localhost:5173/#/genres">
+            <a href = "https://capstone-project-backend-gb8m.onrender.com/genres">
               <button className="p-3 m-3 bg-black text-white rounded hover:text-blue-500">
                 Other Genres
               </button>

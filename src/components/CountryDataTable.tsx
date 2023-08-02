@@ -57,7 +57,7 @@ function CountryDataTable() {
           <Button onClick={deleteData} className='p-3 m-3 bg-orange-500 text-white rounded hover:text-black'>Delete Country Song</Button>           
           
           <div>            
-            <a href = "http://localhost:5173/#/genres">
+            <a href = "https://capstone-project-backend-gb8m.onrender.com/genres">
               <button className="p-3 m-3 bg-orange-500 text-white rounded hover:text-black">
                 Other Genres
               </button>

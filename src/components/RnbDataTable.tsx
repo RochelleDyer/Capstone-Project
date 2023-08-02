@@ -57,7 +57,7 @@ function RnbDataTable() {
           <Button onClick={deleteData} className='p-3 m-3 bg-green-700 text-white rounded hover:text-black'>Delete R&B Song</Button> 
                     
           <div>            
-              <a href = "http://localhost:5173/#/genres">
+              <a href = "https://timely-wisp-4ed4f4.netlify.app/#/genres">
                 <button className="p-3 m-3 bg-green-700 text-white rounded hover:text-black">
                   Other Genres
                 </button>

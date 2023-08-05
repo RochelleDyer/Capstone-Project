@@ -81,7 +81,7 @@ function Navbar() {
 
                     <Button className='p-3 m-3 bg-blue-500 justify-center border rounded border-black'> 
                         <div> 
-                            <Link to='https://capstone-project-backend-gb8m.onrender.com/signup' onClick = {clicked} className='flex place-tiems-center mt-4 lg:inline-block lg:mt-0
+                            <Link to='https://capstone-project-backend-x3j1.onrender.com/signup' onClick = {clicked} className='flex place-tiems-center mt-4 lg:inline-block lg:mt-0
                             text-black hover:text-white mr-4'>
                                 Sign Up
                             </Link>
@@ -92,7 +92,7 @@ function Navbar() {
                         
                         <Button className='p-3 m-3 bg-blue-500 border rounded border-black justify-center'>
                             <div>
-                                <Link to='/' onClick= {() => {signInOnClick()}} className='flex place-items-center mt-4
+                                <Link to='https://timely-wisp-4ed4f4.netlify.app/#/' onClick= {() => {signInOnClick()}} className='flex place-items-center mt-4
                                 lg:inline-block lg:mt-0 text-black hover:text-white'>
                                     Sign In
                                 </Link>
@@ -101,7 +101,7 @@ function Navbar() {
                         :
                         <Button className='p-3 m-3 bg-blue-500 border rounded border-black justify-center'>
                             <div>
-                                <Link to='/' onClick= {() => {signOutOnClick()}} className='flex place-items-center mt-4
+                                <Link to='https://timely-wisp-4ed4f4.netlify.app/#/' onClick= {() => {signOutOnClick()}} className='flex place-items-center mt-4
                                 lg:inline-block lg:mt-0 text-black hover:text-white'>
                                     Sign Out
                                 </Link>

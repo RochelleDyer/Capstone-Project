@@ -4,7 +4,7 @@ let token = '342a60a402ff34133ff9c4153933bc7f8a71810d9fde3029'
 
 export const altserver_calls = {
     get: async () => {
-        const altresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/altsongs`,
+        const altresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs`,
         {
             method: 'GET',
             headers: {
@@ -21,7 +21,7 @@ export const altserver_calls = {
     },
 
     create: async (data: any = {}) => {
-        const altresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/altsongs`,
+        const altresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs`,
         {
             method: "POST",
             headers: {
@@ -39,7 +39,7 @@ export const altserver_calls = {
     },
 
     update: async (id:string, data: any = {}) => {
-        const altresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/altsongs/${id}`,
+        const altresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs/${id}`,
         {
             method: "POST",
             headers: {
@@ -57,7 +57,7 @@ export const altserver_calls = {
     },
 
     delete: async (id:string) => {
-        const altresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/altsongs/${id}`,
+        const altresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -83,7 +83,7 @@ export const altserver_calls = {
 
 export const bluserver_calls = {
     get: async () => {
-        const bluresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/blusongs`,
+        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
         {
             method: 'GET',
             headers: {
@@ -100,7 +100,7 @@ export const bluserver_calls = {
     },
 
     create: async (data: any = {}) => {
-        const bluresponse = await fetch (`https://capstone-project-backend-gb8m.onrender.com/api/blusongs`,
+        const bluresponse = await fetch (`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
         {
             method: "POST",
             headers: {
@@ -119,7 +119,7 @@ export const bluserver_calls = {
 
   
     update: async (id:string, data: any = {}) => {
-        const bluresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/blusongs/${id}`,
+        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs/${id}`,
         {
             method: "POST",
             headers: {
@@ -137,7 +137,7 @@ export const bluserver_calls = {
     },
 
     delete: async (id:string) => {
-        const bluresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/blusongs/${id}`,
+        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -163,7 +163,7 @@ export const bluserver_calls = {
 
 export const countryserver_calls = {
     get: async () => {
-        const countryresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/countrysongs`,
+        const countryresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/countrysongs`,
         {
             method: 'GET',
             headers: {
@@ -180,7 +180,7 @@ export const countryserver_calls = {
     },
 
     create: async (data: any = {}) => {
-        const countryresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/countrysongs`,
+        const countryresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/countrysongs`,
         {
             method: "POST",
             headers: {
@@ -198,7 +198,7 @@ export const countryserver_calls = {
     },
 
     update: async (id:string, data: any = {}) => {
-        const countryresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/countrysongs/${id}`,
+        const countryresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/countrysongs/${id}`,
         {
             method: "POST",
             headers: {
@@ -216,7 +216,7 @@ export const countryserver_calls = {
     },
 
     delete: async (id:string) => {
-        const countryresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/countrysongs/${id}`,
+        const countryresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/countrysongs/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -242,7 +242,7 @@ export const countryserver_calls = {
 
 export const hiphopserver_calls = {
     get: async () => {
-        const hiphopresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/hiphopsongs`,
+        const hiphopresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/hiphopsongs`,
         {
             method: 'GET',
             headers: {
@@ -259,7 +259,7 @@ export const hiphopserver_calls = {
     },
 
     create: async (data: any = {}) => {
-        const hiphopresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/hiphopsongs`,
+        const hiphopresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/hiphopsongs`,
         {
             method: "POST",
             headers: {
@@ -277,7 +277,7 @@ export const hiphopserver_calls = {
     },
 
     update: async (id:string, data: any = {}) => {
-        const hiphopresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/hiphopsongs/${id}`,
+        const hiphopresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/hiphopsongs/${id}`,
         {
             method: "POST",
             headers: {
@@ -295,7 +295,7 @@ export const hiphopserver_calls = {
     },
 
     delete: async (id:string) => {
-        const hiphopresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/hiphopsongs/${id}`,
+        const hiphopresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/hiphopsongs/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -321,7 +321,7 @@ export const hiphopserver_calls = {
 
 export const metalserver_calls = {
     get: async () => {
-        const metalresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/metalsongs`,
+        const metalresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/metalsongs`,
         {
             method: 'GET',
             headers: {
@@ -338,7 +338,7 @@ export const metalserver_calls = {
     },
 
     create: async (data: any = {}) => {
-        const metalresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/metalsongs`,
+        const metalresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/metalsongs`,
         {
             method: "POST",
             headers: {
@@ -356,7 +356,7 @@ export const metalserver_calls = {
     },
 
     update: async (id:string, data: any = {}) => {
-        const metalresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/metalsongs/${id}`,
+        const metalresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/metalsongs/${id}`,
         {
             method: "POST",
             headers: {
@@ -374,7 +374,7 @@ export const metalserver_calls = {
     },
 
     delete: async (id:string) => {
-        const metalresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/metalsongs/${id}`,
+        const metalresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/metalsongs/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -399,7 +399,7 @@ export const metalserver_calls = {
 // R&B Songs
 export const rnbserver_calls = {
     get: async () => {
-        const rnbresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/rnbsongs`,
+        const rnbresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/rnbsongs`,
         {
             method: 'GET',
             headers: {
@@ -416,7 +416,7 @@ export const rnbserver_calls = {
     },
 
     create: async (data: any = {}) => {
-        const rnbresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/rnbsongs`,
+        const rnbresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/rnbsongs`,
         {
             method: "POST",
             headers: {
@@ -434,7 +434,7 @@ export const rnbserver_calls = {
     },
 
     update: async (id:string, data: any = {}) => {
-        const rnbresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/rnbsongs/${id}`,
+        const rnbresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/rnbsongs/${id}`,
         {
             method: "POST",
             headers: {
@@ -452,7 +452,7 @@ export const rnbserver_calls = {
     },
 
     delete: async (id:string) => {
-        const rnbresponse = await fetch(`https://capstone-project-backend-gb8m.onrender.com/api/rnbsongs/${id}`,
+        const rnbresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/rnbsongs/${id}`,
         {
             method: "DELETE",
             headers: {

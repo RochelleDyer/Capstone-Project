@@ -100,7 +100,7 @@ export const bluserver_calls = {
     },
 
     create: async (data: any = {}) => {
-        const bluresponse = await fetch (`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
+        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
         {
             method: "POST",
             headers: {

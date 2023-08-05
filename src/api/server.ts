@@ -99,7 +99,7 @@ export const bluserver_calls = {
         return await bluresponse.json()
     },
 
-    create: async (bludata: any = {}) => {
+    blucreate: async (data: any = {}) => {
         const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
         {
             method: "POST",
@@ -107,7 +107,7 @@ export const bluserver_calls = {
                 'Content-Type': 'application/json',
                 "x-access-token" : `Bearer ${token}`,
             },
-            body: JSON.stringify(bludata)
+            body: JSON.stringify(data)
         });
 
         if(!bluresponse.ok){
@@ -153,6 +153,7 @@ export const bluserver_calls = {
 
         return;
     },
+
 }
 
 

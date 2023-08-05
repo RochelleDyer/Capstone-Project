@@ -2,7 +2,7 @@ import Button from './Button'
 import AltModal from './AltModal'
 import { useState } from 'react';
 import { altserver_calls } from '../api/server';
-import {DataGrid, GridColDef} from '@mui/x-data-grid';
+import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { useGetData } from '../custom_hooks/FetchAltData';
 
 const columns: GridColDef [] = [

@@ -23,7 +23,7 @@ function Favs() {
                   <div className='flex place-items-center h-screen'></div> 
         
 
-        <div className="container">
+        <div className="container ml-20">
           <h3 className = ' text-black mt-6 text-center text-3xl'><u>Weekly Staff Favorites</u></h3>
           <div className="gallery"> 
             <table className = 'table mt-2 '>

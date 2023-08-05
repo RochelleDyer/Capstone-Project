@@ -1,4 +1,4 @@
-let token = '342a60a402ff34133ff9c4153933bc7f8a71810d9fde3029'
+let token = '7ca9f2d388d4930e065c080f4d099026ccbb04dcfd1f3f12'
 
 // Alternative Songs
 

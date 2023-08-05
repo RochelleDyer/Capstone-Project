@@ -8,7 +8,6 @@ import CountryDashboard from '../pages/CountryDashboard';
 import HiphopDashboard from '../pages/HiphopDashboard';
 import MetalDashboard from '../pages/MetalDashboard';
 import RnbDashboard from '../pages/RnbDashboard';
-import SignUp from '../pages/SignUp';
 import Spotify from '../pages/Spotify';
 
 interface RouteType {
@@ -32,13 +31,6 @@ const routes: RouteType[] = [
       component: Spotify,
       name: "Spotify",
       protected: false,
-    },
-
-    {
-      path: '/signup',
-      component: SignUp,
-      name: 'Sign Up',
-      protected: false
     },
 
     {

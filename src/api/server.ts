@@ -4,7 +4,7 @@ let token = '7ca9f2d388d4930e065c080f4d099026ccbb04dcfd1f3f12'
 
 export const altserver_calls = {
     get: async () => {
-        const response = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs`,
+        const altresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs`,
         {
             method: 'GET',
             headers: {
@@ -13,15 +13,15 @@ export const altserver_calls = {
             }
         });
 
-        if(!response.ok){
+        if(!altresponse.ok){
             throw new Error('Failed to fetch data from the server')
         }
 
-        return await response.json()
+        return await altresponse.json()
     },
 
     create: async (data: any = {}) => {
-        const response = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs`,
+        const altresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs`,
         {
             method: "POST",
             headers: {
@@ -31,15 +31,15 @@ export const altserver_calls = {
             body: JSON.stringify(data)
         });
 
-        if(!response.ok){
+        if(!altresponse.ok){
             throw new Error('Failed to create new data on the server')
         }
 
-        return await response.json()
+        return await altresponse.json()
     },
 
     update: async (id:string, data: any = {}) => {
-        const response = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs/${id}`,
+        const altresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs/${id}`,
         {
             method: "POST",
             headers: {
@@ -49,15 +49,15 @@ export const altserver_calls = {
             body: JSON.stringify(data)
         });
 
-        if(!response.ok){
+        if(!altresponse.ok){
             throw new Error('Failed to update data on server')
         }
 
-        return await response.json()
+        return await altresponse.json()
     },
 
     delete: async (id:string) => {
-        const response = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs/${id}`,
+        const altresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/altsongs/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -67,7 +67,7 @@ export const altserver_calls = {
 
         });
 
-        if(!response.ok){
+        if(!altresponse.ok){
             throw new Error('Failed to delete data on server')
         }
 
@@ -83,7 +83,7 @@ export const altserver_calls = {
 
 export const bluserver_calls = {
     get: async () => {
-        const response = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
+        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
         {
             method: 'GET',
             headers: {
@@ -92,15 +92,15 @@ export const bluserver_calls = {
             }
         });
 
-        if(!response.ok){
+        if(!bluresponse.ok){
             throw new Error('Failed to fetch data from the server')
         }
 
-        return await response.json()
+        return await bluresponse.json()
     },
 
     create: async (data: any = {}) => {
-        const response = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
+        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
         {
             method: "POST",
             headers: {
@@ -110,16 +110,16 @@ export const bluserver_calls = {
             body: JSON.stringify(data)
         });
 
-        if(!response.ok){
+        if(!bluresponse.ok){
             throw new Error('Failed to create new data on the server')
         }
 
-        return await response.json()
+        return await bluresponse.json()
     },
 
   
     update: async (id:string, data: any = {}) => {
-        const response = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs/${id}`,
+        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs/${id}`,
         {
             method: "POST",
             headers: {
@@ -129,15 +129,15 @@ export const bluserver_calls = {
             body: JSON.stringify(data)
         });
 
-        if(!response.ok){
+        if(!bluresponse.ok){
             throw new Error('Failed to update data on server')
         }
 
-        return await response.json()
+        return await bluresponse.json()
     },
 
     delete: async (id:string) => {
-        const response = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs/${id}`,
+        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -147,7 +147,7 @@ export const bluserver_calls = {
 
         });
 
-        if(!response.ok){
+        if(!bluresponse.ok){
             throw new Error('Failed to delete data on server')
         }
 

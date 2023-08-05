@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import {blustore} from './redux/Blustore'
 import AuthChecker from './auth/authChecker'
 
-function App() {
+function BluApp() {
   
   return (
       <HashRouter>
@@ -33,4 +33,4 @@ function App() {
 }
 
 
-export default App
+export default BluApp

@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import {countrystore} from './redux/Countrystore'
 import AuthChecker from './auth/authChecker'
 
-function App() {
+function CountryApp() {
   
   return (
       <HashRouter>
@@ -33,4 +33,4 @@ function App() {
 }
 
 
-export default App
+export default CountryApp

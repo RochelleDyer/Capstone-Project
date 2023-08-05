@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import {metalstore} from './redux/Metalstore'
 import AuthChecker from './auth/authChecker'
 
-function App() {
+function MetalApp() {
   
   return (
       <HashRouter>
@@ -33,4 +33,4 @@ function App() {
 }
 
 
-export default App
+export default MetalApp

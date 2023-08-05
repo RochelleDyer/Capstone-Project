@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import {altstore} from './redux/Altstore'
 import AuthChecker from './auth/authChecker'
 
-function App() {
+function AltApp() {
   
   return (
       <HashRouter>
@@ -33,4 +33,4 @@ function App() {
 }
 
 
-export default App
+export default AltApp

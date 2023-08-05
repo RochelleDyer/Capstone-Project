@@ -99,22 +99,22 @@ export const bluserver_calls = {
         return await bluresponse.json()
     },
 
-    blucreate: async (data: any = {}) => {
-        const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
+    create: async (data: any = {}) => {
+        const response = await fetch (`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
         {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
                 "x-access-token" : `Bearer ${token}`,
             },
-            body: JSON.stringify(data)
+            body: JSON.stringify (data)
         });
 
-        if(!bluresponse.ok){
+        if(!response.ok){
             throw new Error('Failed to create new data on the server')
         }
 
-        return await bluresponse.json()
+        return await response.json()
     },
 
   

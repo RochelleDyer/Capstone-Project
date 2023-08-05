@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import {hiphopstore} from './redux/Hiphopstore'
 import AuthChecker from './auth/authChecker'
 
-function App() {
+function HiphopApp() {
   
   return (
       <HashRouter>
@@ -33,4 +33,4 @@ function App() {
 }
 
 
-export default App
+export default HiphopApp

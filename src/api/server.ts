@@ -80,7 +80,7 @@ export const altserver_calls = {
 
 
 // Blues Songs
-
+let btoken = '7ca9f2d388d4930e065c080f4d099026ccbb04dcfd1f3f12'
 export const bluserver_calls = {
     get: async () => {
         const bluresponse = await fetch(`https://capstone-project-backend-x3j1.onrender.com/api/blusongs`,
@@ -88,7 +88,7 @@ export const bluserver_calls = {
             method: 'GET',
             headers: {
                 "Content-type": "application/json",                
-                "x-access-token" : `Bearer ${token}`,
+                "x-access-token" : `Bearer ${btoken}`,
             }
         });
 

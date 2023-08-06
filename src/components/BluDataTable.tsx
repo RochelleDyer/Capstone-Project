@@ -1,7 +1,7 @@
 import Button from './Button'
 import BluModal from './BluModal'
 import { useState } from 'react';
-import { bluserver_calls } from '../api/server';
+import { bluserver_calls } from '../api/bluserver';
 import {DataGrid, GridColDef} from '@mui/x-data-grid';
 import { useGetData } from '../custom_hooks/FetchBluData';
 

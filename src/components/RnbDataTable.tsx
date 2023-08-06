@@ -1,7 +1,7 @@
 import Button from './Button'
 import RnbModal from './RnbModal'
 import { useState } from 'react';
-import { rnbserver_calls } from '../api/server';
+import { rnbserver_calls } from '../api/rnbserver';
 import {DataGrid, GridColDef} from '@mui/x-data-grid';
 import { useGetData } from '../custom_hooks/FetchRnbData';
 

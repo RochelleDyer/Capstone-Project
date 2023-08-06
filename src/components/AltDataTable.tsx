@@ -1,7 +1,7 @@
 import Button from './Button'
 import AltModal from './AltModal'
 import { useState } from 'react';
-import { altserver_calls } from '../api/server';
+import { altserver_calls } from '../api/altserver';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { useGetData } from '../custom_hooks/FetchAltData';
 

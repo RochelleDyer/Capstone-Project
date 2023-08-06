@@ -1,7 +1,7 @@
 import Input from "./Input"
 import Button from "./Button"
 import { useForm } from 'react-hook-form'
-import { altserver_calls } from "../api/server"
+import { altserver_calls } from "../api/altserver"
 import { useDispatch, useStore } from "react-redux"
 import { choosealtsong_title, choosealtartist, choosealtalbum, choosealtyear} from '../redux/slices/AltRootslices'
 

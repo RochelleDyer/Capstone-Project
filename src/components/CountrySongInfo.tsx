@@ -1,7 +1,7 @@
 import Input from "./Input"
 import Button from "./Button"
 import { useForm } from 'react-hook-form'
-import { countryserver_calls } from "../api/server"
+import { countryserver_calls } from "../api/countryserver"
 import { useDispatch, useStore } from "react-redux"
 import { choosecountrysong_title, choosecountryartist, choosecountryalbum, choosecountryyear} from '../redux/slices/CountryRootslices'
 

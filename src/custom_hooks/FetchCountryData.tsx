@@ -1,6 +1,6 @@
 
 import { useEffect, useState} from 'react'
-import { countryserver_calls } from '../api/server'
+import { countryserver_calls } from '../api/countryserver'
 
 export const useGetData = () => {
     const [ countrysongData, setData ] = useState<[]>([])

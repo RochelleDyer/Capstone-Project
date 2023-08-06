@@ -1,6 +1,6 @@
 
 import { useEffect, useState} from 'react'
-import { altserver_calls } from '../api/server'
+import { altserver_calls } from '../api/altserver'
 
 export const useGetData = () => {
     const [ altsongData, setData ] = useState<[]>([])

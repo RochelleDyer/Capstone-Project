@@ -1,7 +1,7 @@
 import Button from './Button'
 import HiphopModal from './HiphopModal'
 import { useState } from 'react';
-import { hiphopserver_calls } from '../api/server';
+import { hiphopserver_calls } from '../api/hiphopserver';
 import {DataGrid, GridColDef} from '@mui/x-data-grid';
 import { useGetData } from '../custom_hooks/FetchHiphopData';
 

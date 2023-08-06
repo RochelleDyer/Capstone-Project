@@ -1,7 +1,7 @@
 import Button from './Button'
 import MetalModal from './MetalModal'
 import { useState } from 'react';
-import { metalserver_calls } from '../api/server';
+import { metalserver_calls } from '../api/metalserver';
 import {DataGrid, GridColDef} from '@mui/x-data-grid';
 import { useGetData } from '../custom_hooks/FetchMetalData';
 

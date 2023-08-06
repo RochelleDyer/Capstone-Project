@@ -1,6 +1,6 @@
 
 import { useEffect, useState} from 'react'
-import { metalserver_calls } from '../api/server'
+import { metalserver_calls } from '../api/metalserver'
 
 export const useGetData = () => {
     const [ metalsongData, setData ] = useState<[]>([])

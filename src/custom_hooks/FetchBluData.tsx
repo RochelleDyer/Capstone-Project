@@ -1,6 +1,6 @@
 
 import { useEffect, useState} from 'react'
-import { bluserver_calls } from '../api/server'
+import { bluserver_calls } from '../api/bluserver'
 
 export const useGetData = () => {
     const [ blusongData, setData ] = useState<[]>([])

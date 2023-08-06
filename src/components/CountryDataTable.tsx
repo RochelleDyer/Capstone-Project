@@ -1,7 +1,7 @@
 import Button from './Button'
 import CountryModal from './CountryModal'
 import { useState } from 'react';
-import { countryserver_calls } from '../api/server';
+import { countryserver_calls } from '../api/countryserver';
 import {DataGrid, GridColDef} from '@mui/x-data-grid';
 import { useGetData } from '../custom_hooks/FetchCountryData';
 

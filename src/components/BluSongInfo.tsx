@@ -1,7 +1,7 @@
 import Input from "./Input"
 import Button from "./Button"
 import { useForm } from 'react-hook-form'
-import { bluserver_calls } from "../api/server"
+import { bluserver_calls } from "../api/bluserver"
 import { useDispatch, useStore } from "react-redux"
 import { chooseblusong_title, choosebluartist, chooseblualbum, choosebluyear} from '../redux/slices/BluRootslices'
 

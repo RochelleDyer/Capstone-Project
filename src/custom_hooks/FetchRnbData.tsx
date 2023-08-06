@@ -1,6 +1,6 @@
 
 import { useEffect, useState} from 'react'
-import { rnbserver_calls } from '../api/server'
+import { rnbserver_calls } from '../api/rnbserver'
 
 export const useGetData = () => {
     const [ rnbsongData, setData ] = useState<[]>([])

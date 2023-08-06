@@ -1,7 +1,7 @@
 import Input from "./Input"
 import Button from "./Button"
 import { useForm } from 'react-hook-form'
-import { metalserver_calls } from "../api/server"
+import { metalserver_calls } from "../api/metalserver"
 import { useDispatch, useStore } from "react-redux"
 import { choosemetalsong_title, choosemetalartist, choosemetalalbum, choosemetalyear} from '../redux/slices/MetalRootslices'
 
